@@ -37,7 +37,7 @@ These data were analysed with R and some text material with Python. Visualizatio
 * Students had a less than positive assesment of the level of knowledge that teaching staff had about their needs and their willingness to help.
 * Teaching staff did not think that they had much knoweldge about digital accessibility.
   
-  <img src="src/frage1_barchart.png" width="50%"/>
+  <img src="src/frage1_barchart.png" width="40%"/>
 * Teaching staff on average did not seem to think that they had students with disabilitie in their classes and/or were complacent about their needs.
 * Teachers had more knowledge in certain areas than others.
 
