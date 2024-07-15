@@ -30,8 +30,11 @@ These data were analysed with R and some text material with Python. Visualizatio
 
 #### Insights
 * Many students have more than one barrier type that compounded the impact of their barriers. This increases the need to make materials accessible in general rather than targeting a specific barrier type.
+
+  <img src="src/number_barriers.png" width="50%"/>
 * Students had a less than positive assesment of the level of knowledge that teaching staff had about their needs and their willingness to help.
 * Teaching staff did not think that they had much knoweldge about digital accessibility.
+  
   <img src="src/frage1_barchart.png" width="50%"/>
 * Teaching staff on average did not seem to think that they had students with disabilitie sin their classes and/or were complacent about their needs.
 * 
