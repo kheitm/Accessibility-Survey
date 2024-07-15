@@ -24,12 +24,15 @@ Most initial data prepration was done by the LimeSurvey platform which identifie
 ### Data Analysis
 While the data did not initial summarization into percentages of total answers, this was not felt to be sufficient. Analysis focused on two areas:
 * Improving the quality of data visualizations for simple descriptive statistics
-* Delving into more complex relations in the data such as the fact that many students have more than one barrier type and the resulting scales and Yes-No responses could be influenced by one of these rather than the other(s).
+* Delving into more complex relations in the data
 * Deriving sentiment from the open-ended questions through an automated pipeline that could be traingulated with thematic analysis.
-
+These data were analysed with R and some text material with Python. Visualizations were done using R
 
 #### Insights
-These data were visualized on Tableau as seen in the following examples:
+* Many students have more than one barrier type that compounded the impact of their barriers. This increases the need to make materials accessible in general rather than targeting a specific barrier type.
+* Students had a less than positive assesment of the level of knowledge that teaching staff had about their needs and their willingness to help.
+* Teaching staff on average did not seem to think that they had students with disabilitie sin their classes and/or were complacent about their needs.
+* 
 
 
 
