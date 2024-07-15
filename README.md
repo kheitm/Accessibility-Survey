@@ -10,8 +10,8 @@ The data is taken from LimeSurvey exported .csv files. The student survey (SS) c
 * __Barriers (SS)__ examines how well the students can access a range of teaching and learning materials including videos, PowerPoints, readings, live lectures etc.
 * __Exams and Accommodations (SS)__ focuses on how students deal with their barriers in Exam conditions, and in assignments and what types of support and accommodations are provided.
 * __Study Level (SS)__ information included type of study( Bachelor, Masters) and which Semester, as students would have different levels of experience dealing with challenges depending on their previous time spent studying.
-* __Teacher Knwoledge/Skills (TS)__ focuses on what knowledge teachers have about types of barrier needs and how tomake their materials accessible
-* __Teacher Training (TS)__ examines what type of training they have had and are willing to do
+* __Teacher Knwoledge/Skills (TS)__ focuses on what knowledge teachers have about types of barrier needs and how tomake their materials accessible.
+* __Teacher Training (TS)__ examines what type of training they have had and are willing to do.
 
 ### Tools
 ![R Badge](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=fff&style=flat)
