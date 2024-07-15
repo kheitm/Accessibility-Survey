@@ -1,6 +1,6 @@
 ---
 title: "SHUFFLE Survey Data V2"
-author: "Kathy-Ann Heitmeier"
+author: "KH"
 date: "07 03 2022"
 output: github_document
 
@@ -33,19 +33,6 @@ library(RColorBrewer)
 # read in dataset
 students<- read_csv("~/survey/student/Studierende_results-survey341952.csv")
 
-```
-## Frage 1 Welche der unten aufgeführten individuellen Umstände wirken sich erschwerend auf Ihr Studium aus?
-```{r}
-v <- c(157, 28, 20, 287, 189, 24, 60, 197, 12, 48, 170, 48)
-w <- c('familiäre Verpflichtungen','Pflegeverantwortung', 'Deutschen Sprache', 'Studium', 'Job', 'Krankheit', 'Chronisch-körperliche Erkrankung', 'Psychische Erkrankung', 'Teilleistungsstörung', 'Neurodiversität', 'Keine', 'Sonstiges')
-
-df <- data.frame(w,v)
-# change col names
-colnames(df) <- c('Barriere','Anzahl')
-
-```
-
-
 ```{r}
 # updated from sonstiges
 v <- c(158, 28, 20, 287, 189, 24, 63, 201, 12, 49)
@@ -60,7 +47,7 @@ cs1 <- c("#325494", "#5494cc", "#4a7432", "#05a404", "#e49c04", "#a45404", "#dc0
 cs2 <- c("#385095", "#5494cc", "#4a7432", "#05a404", "#7433a2", "#e49c04", "#a45404", "#dc0404")
 mycolors <- colorRampPalette(cs2)(nb.cols)
 
-p <- ggplot(df, aes(x= reorder(Barriere, Anzahl), y=Anzahl, fill=Barriere)) +
+plt <- ggplot(df, aes(x= reorder(Barriere, Anzahl), y=Anzahl, fill=Barriere)) +
   theme_classic() +
   scale_fill_manual(values=mycolors) +
   scale_y_continuous(limits = c(0, 350), breaks = seq(0, 350, 50), expand = c(0,6)) +
@@ -75,7 +62,7 @@ p <- ggplot(df, aes(x= reorder(Barriere, Anzahl), y=Anzahl, fill=Barriere)) +
   theme(axis.text = element_text(face="bold", size=8, color="black")) +
   theme(plot.margin = unit(c(1,1,1,1), "cm"))
   #ggplot2::ggsave(filename = 'frage_1.png',path = "figures2/Frage_1/")
-p
+plt
 
 ```
 ###  Frage 1 Sonstiges
