@@ -10,8 +10,10 @@ The data is taken from a LimeSurvey exported .csv file consisting of answers fro
 * __Barriers__ examines how well the students can access a range of teaching and learning materials including videos, PowerPoints, readings, live lectures etc.
 * __Exams and Accommodations__ focuses on how students deal with their barriers in Exam conditions, and in assignments and what types of support and accommodations are provided.
  
-### Tools
 
+### Tools
+![R Badge](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=fff&style=flat)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
 
 ### Data Cleaning/Preparation
 The main preparation neeeded to get the data ready for further processing included:
