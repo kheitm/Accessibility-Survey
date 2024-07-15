@@ -9,6 +9,7 @@ The data is taken from a LimeSurvey exported .csv file consisting of answers fro
 * __Type of Disability__  includes disability categories (e.g. Visual disability, Autism; AD(H)D) as well as family care barriers.
 * __Barriers__ examines how well the students can access a range of teaching and learning materials including videos, PowerPoints, readings, live lectures etc.
 * __Exams and Accommodations__ focuses on how students deal with their barriers in Exam conditions, and in assignments and what types of support and accommodations are provided.
+* __Study Level__ information included type of study( Bachelor, Masters) and which Semester, as students would have different levels of experience dealing with challenges depending on their previous time spent studying.
  
 
 ### Tools
