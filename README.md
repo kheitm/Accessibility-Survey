@@ -40,7 +40,7 @@ These data were analysed with R and some text material with Python. Visualizatio
   
   <img src="src/frage1_barchart.png" width="40%"/>
 * Teaching staff on average did not seem to think that they had students with disabilitie in their classes and/or were complacent about their needs.
-* Teachers had more knowledge in certain areas than others.
+* Teachers had more knowledge of digital accessibility methods in some areas than in others.
 
   <img src="src/frage8_gridplot.png" width="50%"/>    <img src="src/legend_grid.png" width="50%"/>
 
