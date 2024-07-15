@@ -2,7 +2,7 @@
 ## Accessibility Survey
 
 ### Project Overview
-This project outlines data analysis for one of two surveys that were run to investigate the barriers, pain points, and strategies used by students with individual needs (SmiBs) in the University/Hochschule system in Germany. This information provided information on the level of digital accessibility in eductaional materials and was used in the design and development of opensource products to support these students: (i) the [BlindDate website](https://shuffle-project.github.io/blinddate/) which provides a virtual encounter with SmiBS through interactive personas, and serious games; and (ii) [MELVIN](https://melvin.shuffle-projekt.de/de-DE/auth) a live, multiuser video caption editor and accessible player.
+This project outlines data analysis for one of two surveys that were run to investigate the barriers, pain points, and strategies used by students with individual needs (SmiBs) in the University/Hochschule system in Germany. This information provided information on the level of digital accessibility in educational materials and was used in the design and development of opensource products to support these students: (i) the [BlindDate website](https://shuffle-project.github.io/blinddate/) which provides a virtual encounter with SmiBS through interactive personas, and serious games; and (ii) [MELVIN](https://melvin.shuffle-projekt.de/de-DE/auth) a live, multiuser video caption editor and accessible player.
 
 ### Data Sources
 The data is taken from a LimeSurvey exported .csv file consisting of answers from 695 respondents and 23 open-ended and scaled items, with a combination of quantitative and qualitative data. Key questions focused on: 
