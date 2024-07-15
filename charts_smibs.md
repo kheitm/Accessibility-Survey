@@ -1,7 +1,6 @@
 SHUFFLE Survey Data V2
 ================
-Kathy-Ann Heitmeier
-07 03 2022
+
 
 # set working directory and print option
 
