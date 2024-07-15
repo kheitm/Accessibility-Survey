@@ -28,13 +28,8 @@ While the data did not initial summarization into percentages of total answers, 
 
 
 #### Insights
-
-
 These data were visualized on Tableau as seen in the following examples:
 
-<img src="user_journey_analysis/Q1_Subscription_Types.png?raw=true" width="50%"/>
-
-<img src="user_journey_analysis/Q1_Average_Length_of_Journey.png?raw=true" width="50%"/>
 
 
 ### Further Data Analysis
