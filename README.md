@@ -17,16 +17,15 @@ The data is taken from a LimeSurvey exported .csv file consisting of answers fro
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
 
 ### Data Cleaning/Preparation
-The main preparation neeeded to get the data ready for further processing included:
-* Checking for NULL values and removing records where necessary
-* Removing test users (i.e. users who paid $0 for a subscription) from the data
-* [Re-formatting website page names to use aliases](pre-processing/url_to_alias.sql)
-* [Changing subscription type from code to text](pre-processing/reformat_purchase_type.sql)
+Most initial data prepration was done by the LimeSurvey platform which identified incomplete answers and any missing values. The data were still checked for NULL values, but no records were removed from the analysis. Lime survey also provdies initial descriptive statistics showing the percentage of each answer from the total. 
 
 
 ### Data Analysis
-The data were extracted using [SQL queries](user_journey_analysis/user_journey_by_quarter.sql) on MySQLWorkbench to show the 
-<img src="src/user_journey_file.png?raw=true"/>
+While the data did not initial summarization into percentages of total answers, this was not felt to be sufficient. Analysis focused on two areas:
+* Improving the quality of data visualizations for simple descriptive statistics
+* Delving into more complex relations in the data such as the fact that many students have more than one barrier type and the resulting scales and Yes-No responses could be influenced by one of these rather than the other(s).
+* Deriving sentiment from the open-ended questions through an automated pipeline that could be traingulated with thematic analysis.
+
 
 #### Insights
 
